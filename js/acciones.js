@@ -8,8 +8,8 @@ navigator.notification.beep(2);
 }); //tap beep
 
 $('#vibrar').tap(function(){
-navigator.notificaction.vibrate(1000);
-});//tap vibrar
+navigator.notification.vibrate(1000);
+}); //tap beep
 
 },false); //deviceready
 }); //ready
